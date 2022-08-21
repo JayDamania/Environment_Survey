@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        
+
+        <title>Environment Survey Form</title>
+
+
+
+</head>
+
+<body id="main">
+   
+       
+<div class="imagediv">
+    <img src="icon.png" alt="Tree icon" height="50px" width="50px">
+</div>
+    <div class="container">
+        
+    <p id="myHeader">Tree Survey Form</p>
+    
+    <p id="tagline">A survey form on the health of the enviornment</p>
+    
+    <form action="/" method="post">
+<!--use placeholder to add a tag inside box-->   
+       
+       <div>
+        <p id="alignment">Name:</p> 
+       <label for="Uname"></label>
+        <input type="text" class="resize" name="Uname" id="Uname" placeholder="Enter your name e.g John Doe" required>
+
+    </div>
+
+    <div>
+        <p id="alignment">Email:</p>
+        <label for="email"></label>
+        <input type="email" class="resize" name="email" id="email" placeholder="xyz@someplace.com" required>
+
+    </div>
+   
+    <div>
+        <p id="alignment">Age(Optional):</p>
+        <label for="Age"></label>
+        <input type="number" class="resize" name="Age" id="Age" min="1">
+
+    </div>
+
+
+    <div>
+
+    <h3>Select a continent of residence</h3>
+
+    <select id="continent" class="resize" name="continent">
+    <option>Europe</option>
+    <option value="AF">Africa</option>
+    <option value="AN">Antarctica</option>
+    <option value="AS">Asia</option>
+    <option value="EU">Europe</option>
+    <option value="OC">Australia</option>
+    <option value="NA">North America</option>
+    <option value="SA">South America</option>
+</select>
+
+
+    </div>
+  
+    <div>
+        <h3>Choose your preferred gender:</h3>
+                 
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <br />
+          
+        <input type="radio" name="Gender" id="Female">
+        <label for="Female">Female</label>
+        <br />
+        
+        <input type="radio" name="Gender" id="Other">
+        <label for="Other">Other</label>
+
+    </div>
+   
+
+<div>
+    <h3>Please select atleast one of the options below:</h3>
+    
+    <input type="checkbox" name="newsl" id="newsl">
+    <label for="newsl">I have planted a tree or any other plant</label>
+    <br />
+
+    <input type="checkbox" name="news1" id="news2">
+    <label for="news2">I take part in community service for the environment</label>
+<br />
+
+    <input type="checkbox" name="newsl" id="news3">
+    <label for="news3">I promise to plant more from now on</label>
+</div>
+
+
+<div>
+    <h3>Any comments or suggestions</h3>
+    
+    <textarea name="comment" id="comments" placeholder="Comments/Suggestions..."></textarea>
+
+
+<br>
+<button type ="submit"  class="btn">Submit</button>
+
+
+</form>
+</div>
+</body>
+
+</html>

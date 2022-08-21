@@ -1,0 +1,13 @@
+#myHeader {text-align: center; font-size: 40px; font-family: 'Times New Roman', Times, serif; font: bold;}
+#tagline {text-align: center; font-family: 'Times New Roman', Times, serif; font: bold; margin-top: -3%;}
+#main {background-image: url(tree.jpg);opacity: 100%;background-repeat: no-repeat; background-size: cover ;color: white;font-size: large;}
+.container {background-color: black;background-position: center;opacity: 50%; margin-top:0px ; margin-top: 0%; margin-left: 250px;margin-right: 250px; font-size: 30px;}
+.container h3 {text-align: center;}
+.resize {width: 90%; margin-left: 20px; height: 30px;}
+#alignment {margin-left: 20px;}
+input[type=radio] {margin-left: 20px; margin-bottom:3%;}
+input[type=checkbox] {margin-left: 20px; margin-bottom: 3%;}
+#comments {width: 90%; margin-left: 20px; height: 300px;}
+.btn {background-color: green;color: white;font-size: large;margin-left: 20%;margin-right: 30%;width: 60%;}
+.btn:hover {background-color: rgb(70, 21, 21);}
+.imagediv {position: absolute; top: 80px; left: 300px; }
