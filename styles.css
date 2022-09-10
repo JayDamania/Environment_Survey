@@ -1,13 +1,74 @@
-#myHeader {text-align: center; font-size: 40px; font-family: 'Times New Roman', Times, serif; font: bold;}
-#tagline {text-align: center; font-family: 'Times New Roman', Times, serif; font: bold; margin-top: -3%;}
-#main {background-image: url(tree.jpg);opacity: 100%;background-repeat: no-repeat; background-size: cover ;color: white;font-size: large;}
-.container {background-color: black;background-position: center;opacity: 50%; margin-top:0px ; margin-top: 0%; margin-left: 250px;margin-right: 250px; font-size: 30px;}
-.container h3 {text-align: center;}
-.resize {width: 90%; margin-left: 20px; height: 30px;}
-#alignment {margin-left: 20px;}
-input[type=radio] {margin-left: 20px; margin-bottom:3%;}
-input[type=checkbox] {margin-left: 20px; margin-bottom: 3%;}
-#comments {width: 90%; margin-left: 20px; height: 300px;}
-.btn {background-color: green;color: white;font-size: large;margin-left: 20%;margin-right: 30%;width: 60%;}
-.btn:hover {background-color: rgb(70, 21, 21);}
-.imagediv {position: absolute; top: 80px; left: 300px; }
+#myHeader {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font: bold;
+  text-align: center;
+  padding-bottom: 0%;
+}
+#tagline {
+  text-align: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font: bold;
+  margin-left: 2%;
+  font-size: 20px;
+  margin-top: -5%;
+}
+#main {
+  background-image: url(tree.jpg);
+  background-size: cover;
+  color: white;
+  font-size: large;
+}
+
+.container {
+  background-color: rgba(36, 35, 35, 0.658);
+  border-radius: 2%;
+  font-size: 25px;
+  width: 60%;
+  margin: auto;
+}
+.container h3 {
+  text-align: center;
+}
+.resize {
+  width: 90%;
+  margin-left: 5%;
+  height: 4vh;
+}
+.label_aligner label {
+  margin: auto auto auto 5%;
+  line-height: 8vh;
+}
+.radiobtn {
+  margin: auto auto 3% 5%;
+}
+.radiobtn label {
+  line-height: 8vh;
+}
+
+.checkbtn {
+  margin: auto auto 3% 5%;
+}
+
+.checkbtn label {
+  line-height: 8vh;
+}
+
+#comments {
+  width: 90%;
+  margin-left: 5%;
+  height: 300px;
+}
+.btn {
+  background-color: green;
+  color: white;
+  font-size: large;
+  width: 60%;
+  padding: 1%;
+  border-style: solid;
+  margin: 2% 30% 2% 20%;
+}
+.btn:hover {
+  background-color: rgb(70, 21, 21);
+}
